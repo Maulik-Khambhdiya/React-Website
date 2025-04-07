@@ -1,42 +1,98 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.bg{
+  background-color: #212529;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link {
+  color: white !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link:hover{
+  color: #6600FC !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar .container{
+  display: block !important;
+}
+
+.navbar .justify-spacebetween
+{
+  justify-content: space-between;
+}
+
+.navbar .header-btn{
+  background: linear-gradient(96deg, #6600FC 0%, #FA3988 51.56%, #FF8408 100%) !important;
   color: white;
+  font-weight: bold;
+  padding: 13px 25px; 
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar .header-btn:hover{
+  opacity: 0.9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar{
+  
+  align-items: baseline;
+  padding: 20px 0 !important;
 }
 
-.bg-body-tertiary {
-  background-color: black !important;
+.navbar-nav .nav-item .nav-link:hover{
+  color: #6600FC !important;
 }
+
+.flex{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 0 !important;
+}
+
+.flex li{
+  list-style: none;
+}
+
+ul li .header-link{
+  color:#6600FC !important;
+}
+ul li{
+  color: #666 !important;
+  font-size: 14px;
+  padding: 0px 18px;
+  font-family: Poppins, sans-serif;
+}
+ul li span{
+  color: #FF8408 !important;
+  font-size: 15px;
+}
+
+.search{
+  color: white !important;
+  font-size: 19px;
+  border: 1px solid rgba(255, 255, 255, 0.541);
+  padding: 15px 20px;
+  border-radius: 100%;
+  background-color: transparent;
+}
+
+.search:hover{
+  opacity: 0.9;
+  border-color: white;
+}
+.aero{
+  color: black;
+  font-size: 30px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 100%;
+  font-weight: 100;
+}
+
