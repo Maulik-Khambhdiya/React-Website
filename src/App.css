@@ -200,7 +200,7 @@ ul li span {
 
 .section-title {
   text-align: center;
-  padding: 60px 0 75px 0;
+  padding: 30px 0 70px 0;
 }
 
 .section-title p {
@@ -343,6 +343,9 @@ ul li span {
 /* about section end */
 
 /* service section start */
+.services{
+  padding-bottom: 70px;
+}
 .services .service-card{
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.705);
   padding: 25px;
@@ -425,3 +428,169 @@ align-items: center;
 }
 
 /* project section end */
+
+
+/* FAQ section start */
+
+.faq-content span{
+  color: #dae0f5;
+  display: block;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+
+.faq-content h3{
+  color: white;
+  font-size: 25px;
+}
+
+.faq-content .faq-icon{
+
+  font-size: 75px;
+ 
+}
+.faq-content .faq-icon .icon1{
+background:  linear-gradient(96deg, #6600FC 0%, #FA3988 51.56%, #FF8408 100%) !important;
+opacity: 0.8;
+border-radius: 50%;
+margin: 15px 45px;
+padding: 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+/* FAQ section end */
+
+/* counter area start */
+
+.counter .counter-1{
+  text-align: center;
+  padding: 80px 0;
+}
+.counter .counter-1 h2{
+  color: white;
+  font-family: "Libre Franklin", sans-serif !important;
+  font-weight: bolder;
+  font-size: 48px;
+
+}
+.counter .counter-1 p{
+  color:#dae0f5;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Libre Franklin", sans-serif !important;
+}
+/* counter area end */
+
+/* team section start */
+.team-member{
+  padding: 0 0 60px 0;
+}
+.team-member .card-1 a img{
+  width: 100%;
+  border-radius: 0 40px 0 40px;
+}
+
+.team-member .card-1 h2{
+  margin-top: 12px;
+  color: white;
+  font-family: "Libre Franklin", sans-serif !important;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.team-member .card-1 h2:hover{
+  color: #6600FC;
+  transition: 0.3s;
+}
+
+.team-member .card-1 p{
+  color: #dae0f5;
+  font-family: Poppins, sans-serif !important;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.social{
+  flex-direction: column;
+  bottom: -20px;
+  left: 10px;
+  opacity: 0;
+}
+
+.card-1:hover .social{
+  opacity: 1;
+  transition: 1.5s;
+
+}
+
+.social .social-icon{
+  padding: 8px;
+  font-size: 38px;
+  margin-bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+}
+.social a{
+  color: black;
+}
+
+.social a:hover{
+  color: #6600FC;
+}
+/* team section end */
+
+/* blog section start */
+.blog-single-card .blog-content{
+  padding: 30px;
+}
+.blog-single-card .blog-content .blog-icon{
+  color: #FF8408;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.blog-single-card .blog-content ul li p{
+  color: #dae0f5;
+  font-size: 16px;
+  font-family: Poppins, sans-serif !important;
+padding-right: 8px;
+}
+.blog-single-card .blog-content ul li a{
+  color: #dae0f5;
+  font-size: 16px;
+  font-family: Poppins, sans-serif !important;
+  text-decoration: none;
+}
+.blog-single-card .blog-content ul li a:hover{
+  color: #6600FC;
+  transition: 0.5s;
+}
+
+.blog-single-card .blog-content h3{
+  color: white;
+  font-size: 23px;
+  padding-bottom: 15px;
+}
+.blog-single-card .blog-content h3:hover{
+  color: #6600FC;
+  transition: 0.5s;
+}
+
+.blog-single-card .card-image img{
+  width: 100%;
+  padding: 15px;
+  border-radius: 0 40px 0 40px;
+  border: 1px solid #dae0f55b;
+}
+
+
+/* blog section end */

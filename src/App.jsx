@@ -23,6 +23,16 @@ import { FaAppStore } from "react-icons/fa";
 import { FaCentercode } from "react-icons/fa";
 import { FaDharmachakra } from "react-icons/fa";
 import { FaDigitalOcean } from "react-icons/fa";
+import { FaQuestion } from "react-icons/fa";
+import { FaShapes } from "react-icons/fa";
+import Accordion from 'react-bootstrap/Accordion';
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaPinterest } from "react-icons/fa";
+import { FaRegUser } from "react-icons/fa";
+import { IconName } from "react-icons/vsc";
+import { VscCalendar } from "react-icons/vsc";
 
 
 function App() {
@@ -123,7 +133,7 @@ function App() {
 
 
 
-        <div className="hero" style={{ padding: '160px 0px' }}>
+        <div className="hero" style={{ padding: '140px 0px 100px 0' }}>
           <Container>
             <Row>
               <Col xs={6} className='hero-left'>
@@ -343,29 +353,293 @@ function App() {
             <div className='project-header'>
               <div className='section-title text-start'>
                 <p>Our Projects</p>
-                <h2 style={{fontSize:'30px'}}>Feat to Celebrate: Showcasing Some of Our Proud Projects.</h2>
+                <h2 style={{ fontSize: '30px' }}>Feat to Celebrate: Showcasing Some of Our Proud Projects.</h2>
               </div>
               <a href="" className='view-btn'><FaCircle className='circle' />View All Project</a>
             </div>
           </div>
 
           <div className='project-card'>
-            <ul>
-              <li>
-                <span>Data Loss Prevention (DLP)</span>
+            {/* <ul className='d-flex'>
+              <li className='bg-1'>
+                <span><img src="projects-1.jpg" alt="" /></span>
                 <div className='project-content'>
-                  <h3></h3>
-                  <p></p>
+                  <h3>Data Loss Prevention (DLP)</h3>
+                  <p>This includes implementing strategies and tools to prevent sensitive data...</p>
                 </div>
-                <a href=""></a>
+                <a href="" className='read-more'>Read More <FaArrowRight className='turn' /></a>
               </li>
-            </ul>
+              
+            </ul> */}
 
           </div>
 
 
+
         </Container>
         {/* project section end */}
+
+        {/* FAQ section start */}
+
+        <div className='faq'>
+          <Container>
+            <Row className='align-items-center'>
+              <Col xs={6}>
+
+                <div className='section-title text-start'>
+                  <div className='faq-content'>
+                    <p>FAQs</p>
+                    <h2 style={{ fontSize: '33px', marginBottom: '30px' }}>A Dedication to Supporting All Aspects of Your Life.</h2>
+                    <span>Can’t find what you are looking for?</span>
+                    <h3>Let's Talk: Engage with Us in a Conversation Tailored Just for You.</h3>
+
+                    <div className='faq-icon'>
+                      <FaQuestion className='icon1' />
+                      <FaShapes className='icon1' />
+                    </div>
+                  </div>
+                </div>
+              </Col>
+
+              <Col xs={6}>
+                <Accordion defaultActiveKey="0" className='bg-color'>
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>What should I study for cybersecurity?</Accordion.Header>
+                    <Accordion.Body className='accordion'>
+                      These services collectively help organizations establish a comprehensive cybersecurity framework and protect their digital assets from various cyber threats. This service focuses on securing end-user devices like.
+                    </Accordion.Body>
+                  </Accordion.Item>
+
+                  <Accordion.Item eventKey="1">
+                    <Accordion.Header>How do I choose a cybersecurity career?</Accordion.Header>
+                    <Accordion.Body>
+                      These services collectively help organizations establish a comprehensive cybersecurity framework and protect their digital assets from various cyber threats. This service focuses on securing end-user devices like.
+                    </Accordion.Body>
+                  </Accordion.Item>
+
+                  <Accordion.Item eventKey="2">
+                    <Accordion.Header>What is the lowest salary in cyber security?</Accordion.Header>
+                    <Accordion.Body>
+                      These services collectively help organizations establish a comprehensive cybersecurity framework and protect their digital assets from various cyber threats. This service focuses on securing end-user devices like.
+                    </Accordion.Body>
+                  </Accordion.Item>
+
+                  <Accordion.Item eventKey="3">
+                    <Accordion.Header>Can I learn cyber security in 6 months?</Accordion.Header>
+                    <Accordion.Body>
+                      These services collectively help organizations establish a comprehensive cybersecurity framework and protect their digital assets from various cyber threats. This service focuses on securing end-user devices like.
+                    </Accordion.Body>
+                  </Accordion.Item>
+
+                  <Accordion.Item eventKey="4">
+                    <Accordion.Header>What is the highest paying job in cyber security?</Accordion.Header>
+                    <Accordion.Body>
+                      These services collectively help organizations establish a comprehensive cybersecurity framework and protect their digital assets from various cyber threats. This service focuses on securing end-user devices like.
+                    </Accordion.Body>
+                  </Accordion.Item>
+
+
+
+
+                </Accordion>
+
+              </Col>
+
+            </Row>
+          </Container>
+        </div>
+        {/* FAQ section end */}
+
+        {/* counter area start */}
+        <div className='counter '>
+          <Container>
+            <Row>
+              <Col xs={3}>
+                <div className='counter-1'>
+                  <h2>36+</h2>
+                  <p>YEARS' EXPERIENCE</p>
+                </div>
+              </Col>
+
+              <Col xs={3}>
+                <div className='counter-1'>
+                  <h2>645+</h2>
+                  <p>CYBER SECURITY EXPERTS</p>
+                </div>
+              </Col>
+
+              <Col xs={3}>
+                <div className='counter-1'>
+                  <h2>100%</h2>
+                  <p>CUSTOMER SATISFACTION</p>
+                </div>
+              </Col>
+
+              <Col xs={3}>
+                <div className='counter-1'>
+                  <h2>35 M</h2>
+                  <p>CUSTOMER SERVED GLOBALLY</p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+
+        </div>
+
+        {/* counter area end  */}
+
+        {/* team section start */}
+        <div className='team'>
+          <Container>
+            <div className='section-title'>
+              <p>Our Team</p>
+              <h2>Meet Our Awesome Team Members.</h2>
+            </div>
+
+            <div className='team-member'>
+              <Row>
+                <Col xs={3}>
+                  <div className='card-1'>
+                    <a href="" className='position-relative'>
+                      <img src="team-1.jpg" alt="" />
+                      <div className='social position-absolute d-flex'>
+                        <a href=""><FaFacebook className='social-icon' /></a>
+                        <a href=""><FaTwitterSquare className='social-icon' /></a>
+                        <a href=""><FaInstagram className='social-icon' /></a>
+                        <a href=""><FaPinterest className='social-icon' /></a>
+                      </div>
+                    </a>
+                    <h2>Bonnie Acosta</h2>
+                    <p>Lead Developer</p>
+                  </div>
+                </Col>
+
+                <Col xs={3}>
+                  <div className='card-1'>
+                    <a href="" className='position-relative'>
+                      <img src="team-2.jpg" alt="" />
+                      <div className='social position-absolute d-flex'>
+                        <a href=""><FaFacebook className='social-icon' /></a>
+                        <a href=""><FaTwitterSquare className='social-icon' /></a>
+                        <a href=""><FaInstagram className='social-icon' /></a>
+                        <a href=""><FaPinterest className='social-icon' /></a>
+                      </div>
+                    </a>
+                    <h2>Warren Riner</h2>
+                    <p>CEO & Founder</p>
+                  </div>
+                </Col>
+
+                <Col xs={3}>
+                  <div className='card-1'>
+                    <a href="" className='position-relative'>
+                      <img src="team-3.jpg" alt="" />
+                      <div className='social position-absolute d-flex'>
+                        <a href=""><FaFacebook className='social-icon' /></a>
+                        <a href=""><FaTwitterSquare className='social-icon' /></a>
+                        <a href=""><FaInstagram className='social-icon' /></a>
+                        <a href=""><FaPinterest className='social-icon' /></a>
+                      </div>
+                    </a>
+                    <h2>Helen Kurt</h2>
+                    <p>Developer</p>
+                  </div>
+                </Col>
+
+                <Col xs={3}>
+                  <div className='card-1'>
+                    <a href="" className='position-relative'>
+                      <img src="team-4.jpg" alt="" />
+                      <div className='social position-absolute d-flex'>
+                        <a href=""><FaFacebook className='social-icon' /></a>
+                        <a href=""><FaTwitterSquare className='social-icon' /></a>
+                        <a href=""><FaInstagram className='social-icon' /></a>
+                        <a href=""><FaPinterest className='social-icon' /></a>
+                      </div>
+                    </a>
+                    <h2>Wanda Wagner</h2>
+                    <p>CO-Founder</p>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </Container>
+        </div>
+
+
+        {/* team section end */}
+
+        {/* blog section start */}
+        <div className='blog'>
+          <Container>
+            <div className='section-title'>
+              <p>Our Blog</p>
+              <h2>Latest Blog & Articles</h2>
+            </div>
+
+            <div className='blog-cards'>
+              <Row>
+                <Col xs={4} className='blog-single-card'>
+                  <div className='card-image'>
+                    <a href=""><img src="blog-1.jpg" alt="" /></a>
+                  </div>
+                  <div className='blog-content'>
+                    <ul className='d-flex justify-content-between p-0'>
+                      <li className='d-flex p-0'><FaRegUser className='blog-icon' /><p>By</p><a href="">Admin</a></li>
+                      <li className='p-0'><p><VscCalendar className='blog-icon' />November 6, 2024</p></li>
+                    </ul>
+                    <h3>Ensuring Data Security Amid Office Transitions The Emerging Trend of 2024.</h3>
+                    <a href="" className='read-more'>Read More <FaArrowRight className='turn' /></a>
+
+                  </div>
+
+
+                </Col>
+
+                <Col xs={4} className='blog-single-card'>
+                  <div className='card-image'>
+                    <a href=""><img src="blog-2.jpg" alt="" /></a>
+                  </div>
+                  <div className='blog-content'>
+                    <ul className='d-flex justify-content-between p-0'>
+                      <li className='d-flex p-0'><FaRegUser className='blog-icon' /><p>By</p><a href="">Admin</a></li>
+                      <li className='p-0'><p><VscCalendar className='blog-icon' />November 8, 2024</p></li>
+                    </ul>
+                    <h3>Navigating the Impact of Blockchain Technology in the Logistics Sector.</h3>
+                    <a href="" className='read-more'>Read More <FaArrowRight className='turn' /></a>
+
+                  </div>
+
+
+                </Col>
+
+                <Col xs={4} className='blog-single-card'>
+                  <div className='card-image'>
+                    <a href=""><img src="blog-3.jpg" alt="" /></a>
+                  </div>
+                  <div className='blog-content'>
+                    <ul className='d-flex justify-content-between p-0'>
+                      <li className='d-flex p-0'><FaRegUser className='blog-icon' /><p>By</p><a href="">Admin</a></li>
+                      <li className='p-0'><p><VscCalendar className='blog-icon' />November 6, 2024</p></li>
+                    </ul>
+                    <h3>Securing the Future: How AI Redefines Customer Workload Protection.</h3>
+                    <a href="" className='read-more'>Read More <FaArrowRight className='turn' /></a>
+
+                  </div>
+
+
+                </Col>
+
+              </Row>
+            </div>
+          </Container>
+        </div>
+
+
+
+
+
+        {/* blog section end */}
       </main >
 
     </>
